@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx
+spec:
+  containers:
+  - name: nginx
+    image: anwar0608/myweb:0.0.2
+    ports:
+    - containerPort: 80
